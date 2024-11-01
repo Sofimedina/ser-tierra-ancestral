@@ -39,33 +39,33 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Feature 1",
+    title: "Features",
     url: "#features",
   },
   {
     id: "1",
-    title: "Feature 2",
+    title: "Pricing",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "Feature 3",
+    title: "How to use",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Feature 4",
+    title: "Roadmap",
     url: "#roadmap",
   },
   {
     id: "4",
-    title: "only mob btn",
+    title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "only mob btn 2",
+    title: "Sign in",
     url: "#login",
     onlyMobile: true,
   },
