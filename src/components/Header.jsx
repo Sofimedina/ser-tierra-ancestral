@@ -1,4 +1,5 @@
 import { brainwave } from "../assets";
+import serBlackSample from "../assets/ser-black-sample.svg";
 import serSymbol from "../assets/ser-symbol-no-bg-sample.svg";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
@@ -30,8 +31,8 @@ const Header = () => {
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50 
-        border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
-          openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
+        border-b border-n-6 lg:bg-green-900 lg:backdrop-blur-sm ${
+          openNavigation ? "bg-green-800" : "bg-green-900 backdrop-blur-sm"
         } `}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
@@ -78,10 +79,10 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New Account
+          a link 1
         </a>
         <Button className="hidden lg:flex" href="#login">
-          SignUp
+          button 1
         </Button>
         <Button className="ml-auto lg:hidden px-3 " onClick={toggleNavigation}>
           <MenuSvg openNavigation={openNavigation}></MenuSvg>
