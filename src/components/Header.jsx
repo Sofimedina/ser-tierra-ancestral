@@ -1,4 +1,5 @@
 import { brainwave } from "../assets";
+import serSymbol from "../assets/ser-symbol-no-bg-sample.svg";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
 import Button from "./Button";
@@ -34,13 +35,17 @@ const Header = () => {
         } `}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <a
+          className="flex items-center  w-[12rem] xl:mr-8 gap-x-2"
+          href="#hero"
+        >
           <img
-            src={brainwave}
-            width={190}
-            height={40}
+            src={serSymbol}
+            width={60}
+            height={20}
             alt="Ser tierra ancestral"
           ></img>
+          <span className="left-5">SER</span>
         </a>
         <nav
           className={` ${
